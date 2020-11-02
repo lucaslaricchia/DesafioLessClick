@@ -45,7 +45,7 @@ Uma vez configurado o arquivo .env, para executar os testes para as APIs de **Ev
 
 Requisição:   
 
-    curl -d '{"email":"lucaslarrichia@gmail.com", "password":"password"}' -H "Content-Type: application/json" -X POST http://localhost:8000/api/auth/login
+    curl -d '{"email":"tiago@gmail.com", "password":"password"}' -H "Content-Type: application/json" -X POST http://localhost:8000/api/auth/login
 
 Resposta:
 > 
@@ -53,7 +53,7 @@ Resposta:
     {
 	   "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwNDI4NjYyMCwiZXhwIjoxNjA0MjkwMjIwLCJuYmYiOjE2MDQyODY2MjAsImp0aSI6ImpWQ2Z6bk1lbFZucHBIUVQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.EhHYuadV2JroItF8o6pk0O-W7vnhc3tNwo_thhdzj28",
 	   "token_type":"bearer",
-       "expires_in":3600
+       "expires_in":0
     }
 
 ### Para realizar operações nas outras API use:
