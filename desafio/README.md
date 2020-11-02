@@ -62,7 +62,7 @@ Para recuperar todos os eventos:
 
 Requisição:
 
-    curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwNDM1NTY3NiwibmJmIjoxNjA0MzU1Njc2LCJqdGkiOiJYaXNORno0NnFkUnEwTlZTIiwic3ViIjozLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.HRvcfOU2QF8BJNZ8ERFUeckCgAskh792MN_2BtBCMAA.EhHYuadV2JroItF8o6pk0O-W7vnhc3tNwo_thhdzj28" -H "Content-Type: application/json" -H "Accept: application/json" http://localhost:8000/api/eventos
+    curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwNDM1NjAzMywibmJmIjoxNjA0MzU2MDMzLCJqdGkiOiJFWHhWTGxUcmNoZ2xrU1FOIiwic3ViIjozLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.KhLCseujsfRiBsN-YuPz8EBiklrKXI6el60o1jCbC7s" -H "Content-Type: application/json" -H "Accept: application/json" http://localhost:8000/api/eventos
 
 Resposta:
 >
