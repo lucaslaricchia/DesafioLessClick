@@ -41,3 +41,4 @@ services:
         GRANT ALL PRIVILEGES ON test_${DB_DATABASE}.* TO '${DB_USERNAME}' identified by '${DB_USERNAME}';
 networks:
   backend:
+    

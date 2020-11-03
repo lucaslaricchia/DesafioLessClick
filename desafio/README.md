@@ -5,9 +5,14 @@ Olá! Sou Lucas Laricchia e esse é meu **Desafio Less Click**. Para facilitar a
 
 # Iniciando com Docker
 
+
 Para iniciar com docker basta seguir o seguintes passos:
 
     docker-compose up -d
+
+Em seguida instale as dependencias :
+
+    docker exec laravel-app composer install
 
 
 Será iniciado dois bancos de dados no MySQL, sendo eles, `desafio_less_click`para o banco de principal e  `test_desafio_less_click`para o banco de testes.
@@ -20,15 +25,25 @@ Para executar os testes para as APIs de **Eventos** e **Ingressos**, execute o s
     docker exec laravel-app php artisan test
 
 # Inicialização padrão
+
+Primeiramente, execute este comando para instalar as dependencias:
+```
+composer install
+```
+
 Para iniciação padrão do Laravel através do comando `php artisan serve` é preciso primeiramente definir as configurações do banco de dados no .env.
 
-Em seguida, execute:
+Agora execute este comando para realizar as migrations:
+
 ```
 php artisan migrate
 ```
+E depois popule o banco com a seed através deste comando:
+
 ```
 php artisan db:seed
 ```
+
 Serão criadas as bases de dados e populadas as tabelas de *usuários*, *categoria*   e *setor*.
 Por fim inicie o servidor usando:
 
