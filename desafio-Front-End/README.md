@@ -2,6 +2,7 @@
 
 Olá! Sou Lucas Laricchia e esse é meu **Desafio Less Click**. Para facilitar a inicialização do Front-End do projeto, este arquivo `README.md` trará algumas informações.
 
+Antes de começar, confirme se você está com a versão do NodeJS atualizada.
 
 # Instalando o Expo-cli
 
